@@ -1,0 +1,44 @@
+[
+  {
+    "src": "images/events/event-1.jpg",
+    "alt": "People gathered at an indoor event",
+    "caption": "Community Meetup – 2025",
+    "category": "event",
+    "date_taken": "2025-03-14",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA",
+      "country": "USA",
+      "venue": "Local Hall"
+    },
+    "camera": {
+      "make": "Sony",
+      "model": "A7IV",
+      "lens": "24-70mm f/2.8"
+    },
+    "tags": ["event", "indoor", "people"],
+    "orientation": "landscape",
+    "aspect_ratio": "3:2"
+  },
+  {
+    "src": "images/concerts/concert-1.jpg",
+    "alt": "Performer on stage with colorful lights",
+    "caption": "Live Show – Downtown",
+    "category": "concert",
+    "date_taken": "2025-02-10",
+    "location": {
+      "city": "Atlanta",
+      "state": "GA",
+      "country": "USA",
+      "venue": "The Tabernacle"
+    },
+    "camera": {
+      "make": "Sony",
+      "model": "A7IV",
+      "lens": "70-200mm f/2.8"
+    },
+    "tags": ["concert", "stage", "lights"],
+    "orientation": "landscape",
+    "aspect_ratio": "3:2"
+  }
+]
