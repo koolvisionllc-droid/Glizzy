@@ -1,0 +1,38 @@
+name: Generate photo metadata
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate-metadata:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run metadata generator
+        run: |
+          node scripts/generate-metadata.mjs
+
+      - name: Commit and push updated photos.json
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/photos.json
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "Update photos metadata [skip ci]"
+            git push
+          fi
