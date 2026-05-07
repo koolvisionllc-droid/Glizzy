@@ -1,7 +1,8 @@
+
 {
   "src": "images/events/event-1.jpg",
-  "alt": "Crowd cheering at night",
-  "caption": "Atlanta Concert – 2025",
+"alt": "Crowd cheering at night",
+  "caption": "Atlanta Concert – 2025",  
   "category": "concerts",
   "date_taken": "2025-03-14",
   "location": {
@@ -24,3 +25,283 @@
   "orientation": "landscape",
   "aspect_ratio": "3:2"
 }
+
+[
+  {
+    "src": "images/events/event-1.jpg",
+    "alt": "Event 1",
+    "caption": "Event 1",
+    "category": "event",
+    "date_taken": null,
+    "location": {
+      "city": null,
+      "state": null,
+      "country": null,
+      "venue": null
+    },
+    "camera": {
+      "make": null,
+      "model": null,
+      "lens": null
+    },
+    "tags": [
+      "event"
+    ],
+    "orientation": "landscape",
+    "aspect_ratio": "3:2"
+  },
+  {
+    "src": "images/events/event-2.jpg",
+    "alt": "Event 2",
+    "caption": "Event 2",
+    "category": "event",
+    "date_taken": null,
+    "location": {
+      "city": null,
+      "state": null,
+      "country": null,
+      "venue": null
+    },
+    "camera": {
+      "make": null,
+      "model": null,
+      "lens": null
+    },
+    "tags": [
+      "event"
+    ],
+    "orientation": "landscape",
+    "aspect_ratio": "3:2"
+  },
+  {
+    "src": "images/events/event-3.jpg",
+    "alt": "Event 3",
+    "caption": "Event 3",
+    "category": "event",
+    "date_taken": null,
+    "location": {
+      "city": null,
+      "state": null,
+      "country": null,
+      "venue": null
+    },
+    "camera": {
+      "make": null,
+      "model": null,
+      "lens": null
+    },
+    "tags": [
+      "event"
+    ],
+    "orientation": "landscape",
+    "aspect_ratio": "3:2"
+  },
+  {
+    "src": "images/concerts/concert-1.jpg",
+    "alt": "Concert 1",
+    "caption": "Concert 1",
+    "category": "concert",
+    "date_taken": null,
+    "location": {
+      "city": null,
+      "state": null,
+      "country": null,
+      "venue": null
+    },
+    "camera": {
+      "make": null,
+      "model": null,
+      "lens": null
+    },
+    "tags": [
+      "concert"
+    ],
+    "orientation": "landscape",
+    "aspect_ratio": "3:2"
+  },
+  {
+    "src": "images/concerts/concert-2.jpg",
+    "alt": "Concert 2",
+    "caption": "Concert 2",
+    "category": "concert",
+    "date_taken": null,
+    "location": {
+      "city": null,
+      "state": null,
+      "country": null,
+      "venue": null
+    },
+    "camera": {
+      "make": null,
+      "model": null,
+      "lens": null
+    },
+    "tags": [
+      "concert"
+    ],
+    "orientation": "landscape",
+    "aspect_ratio": "3:2"
+  },
+  {
+    "src": "images/concerts/concert-3.jpg",
+    "alt": "Concert 3",
+    "caption": "Concert 3",
+    "category": "concert",
+    "date_taken": null,
+    "location": {
+      "city": null,
+      "state": null,
+      "country": null,
+      "venue": null
+    },
+    "camera": {
+      "make": null,
+      "model": null,
+      "lens": null
+    },
+    "tags": [
+      "concert"
+    ],
+    "orientation": "landscape",
+    "aspect_ratio": "3:2"
+  },
+  {
+    "src": "images/portraits/portrait-1.jpg",
+    "alt": "Portrait 1",
+    "caption": "Portrait 1",
+    "category": "portrait",
+    "date_taken": null,
+    "location": {
+      "city": null,
+      "state": null,
+      "country": null,
+      "venue": null
+    },
+    "camera": {
+      "make": null,
+      "model": null,
+      "lens": null
+    },
+    "tags": [
+      "portrait"
+    ],
+    "orientation": "landscape",
+    "aspect_ratio": "3:2"
+  },
+  {
+    "src": "images/portraits/portrait-2.jpg",
+    "alt": "Portrait 2",
+    "caption": "Portrait 2",
+    "category": "portrait",
+    "date_taken": null,
+    "location": {
+      "city": null,
+      "state": null,
+      "country": null,
+      "venue": null
+    },
+    "camera": {
+      "make": null,
+      "model": null,
+      "lens": null
+    },
+    "tags": [
+      "portrait"
+    ],
+    "orientation": "landscape",
+    "aspect_ratio": "3:2"
+  },
+  {
+    "src": "images/portraits/portrait-3.jpg",
+    "alt": "Portrait 3",
+    "caption": "Portrait 3",
+    "category": "portrait",
+    "date_taken": null,
+    "location": {
+      "city": null,
+      "state": null,
+      "country": null,
+      "venue": null
+    },
+    "camera": {
+      "make": null,
+      "model": null,
+      "lens": null
+    },
+    "tags": [
+      "portrait"
+    ],
+    "orientation": "landscape",
+    "aspect_ratio": "3:2"
+  },
+  {
+    "src": "images/travel/travel-1.jpg",
+    "alt": "Travel 1",
+    "caption": "Travel 1",
+    "category": "travel",
+    "date_taken": null,
+    "location": {
+      "city": null,
+      "state": null,
+      "country": null,
+      "venue": null
+    },
+    "camera": {
+      "make": null,
+      "model": null,
+      "lens": null
+    },
+    "tags": [
+      "travel"
+    ],
+    "orientation": "landscape",
+    "aspect_ratio": "3:2"
+  },
+  {
+    "src": "images/travel/travel-2.jpg",
+    "alt": "Travel 2",
+    "caption": "Travel 2",
+    "category": "travel",
+    "date_taken": null,
+    "location": {
+      "city": null,
+      "state": null,
+      "country": null,
+      "venue": null
+    },
+    "camera": {
+      "make": null,
+      "model": null,
+      "lens": null
+    },
+    "tags": [
+      "travel"
+    ],
+    "orientation": "landscape",
+    "aspect_ratio": "3:2"
+  },
+  {
+    "src": "images/travel/travel-3.jpg",
+    "alt": "Travel 3",
+    "caption": "Travel 3",
+    "category": "travel",
+    "date_taken": null,
+    "location": {
+      "city": null,
+      "state": null,
+      "country": null,
+      "venue": null
+    },
+    "camera": {
+      "make": null,
+      "model": null,
+      "lens": null
+    },
+    "tags": [
+      "travel"
+    ],
+    "orientation": "landscape",
+    "aspect_ratio": "3:2"
+  }
+]
+
