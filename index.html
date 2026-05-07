@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>My Photo Galleries</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>My Photo Gallery</h1>
+    <p>Events · Concerts · Portraits · Travel</p>
+  </header>
 
+  <main>
+    <section aria-labelledby="events-heading">
+      <h2 id="events-heading">Events</h2>
+      <div class="gallery" data-category="event" aria-label="Events gallery"></div>
+    </section>
+
+    <section aria-labelledby="concerts-heading">
+      <h2 id="concerts-heading">Concerts</h2>
+      <div class="gallery" data-category="concert" aria-label="Concerts gallery"></div>
+    </section>
+
+    <section aria-labelledby="portraits-heading">
+      <h2 id="portraits-heading">Portraits</h2>
+      <div class="gallery" data-category="portrait" aria-label="Portraits gallery"></div>
+    </section>
+
+    <section aria-labelledby="travel-heading">
+      <h2 id="travel-heading">Travel</h2>
+      <div class="gallery" data-category="travel" aria-label="Travel gallery"></div>
+    </section>
+  </main>
+
+  <script>
+    fetch('./data/photos.json')
+      .then(res => res.json())
+      .then(photos => {
+        const galleries = document.querySelectorAll('.gallery');
+        galleries.forEach(gallery => {
+          const category = gallery.getAttribute('data-category');
+          const filtered = photos.filter(p => p.category === category);
+
+          filtered.forEach(photo => {
+            const figure = document.createElement('figure');
+            figure.className = 'photo-item';
+
+            const img = document.createElement('img');
+            img.src = photo.src;
+            img.alt = photo.alt || '';
+            img.loading = 'lazy';
+
+            const caption = document.createElement('figcaption');
+            caption.textContent = photo.caption || '';
+
+            figure.appendChild(img);
+            figure.appendChild(caption);
+            gallery.appendChild(figure);
+          });
+        });
+      })
+      .catch(err => {
+        console.error('Error loading photos.json', err);
+      });
+  </script>
+</body>
+</html>
